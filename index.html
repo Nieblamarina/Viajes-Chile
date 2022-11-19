@@ -9,7 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <!--fin tipografías-->
+
+    <!-- font awesome - iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -20,34 +30,36 @@
 <nav id="navbarviajeschile" class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-      <img src="./assets/img/viajes.svg" alt="logo" width="32" height="26" class="d-inline-block align-text-top">Viajes Chile</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <img src="./assets/img/viajes.svg" alt="logoviajeschile" width="32" height="26" class="d-inline-block align-text-top">Viajes Chile</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsableNavbar">
         <span class="navbar-toggler-icon"></span>
-       
-       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
-        <li class="nav-item">
-        <a class="nav-link active" aria-current="page">Inicio</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link">Quienes somos</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link">Destacados</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link">Contacto</a>
-        </li>
-        </ul>
-        
-      </div>
-    </div>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsableNavbar">
+          <span class="navbar-toogler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsableNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-log-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#QuienesSomos">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Destacados">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
   </nav>
  
 
   <!--carrusel principal-->
-  <div class="container-flex text-center p-0">
+  <div class="container-flex text-center">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -74,43 +86,51 @@
       </button>
     </div>
   </div>
-  
-    
-    
+   
 </header>
-
 
 <section>
 <!---3 parrafos con favicons-->
-  <section id="QuienesSomos" class="cards d-none d-md-block m-4">
-  </section>
-        <h2 class="text-center">¿QUIÉNES SOMOS?</h2>
-        <div class="row card-row">
 
-        <div class="card col-md-4 col-lg-4 card1">
-          <div class="card-header c-head rounded-0">
-            <i class="fa-solid fa-plane icono"></i>
-            </div>
-            <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam expedita incidunt repellat, vero blanditiis ipsam similique laboriosam aut maiores sunt ab sit in deleniti itaque possimus officiis natus harum consectetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam expedita incidunt repellat, vero blanditiis ipsam similique laboriosam aut maiores sunt ab sit in deleniti itaque possimus officiis natus harum consectetur.
-              </div>
-              </div>
 
-        <div class="card col-md-4 col-lg-4 card1">
-          <div class="card-header c-head rounded-0">
-            <i class="fa-solid fa-plane icono"></i>
-            </div>
-            <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam expedita incidunt repellat, vero blanditiis ipsam similique laboriosam aut maiores sunt ab sit in deleniti itaque possimus officiis natus harum consectetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam expedita incidunt repellat, vero blanditiis ipsam similique laboriosam aut maiores sunt ab sit in deleniti itaque possimus officiis natus harum consectetur.
+<section id="QuienesSomos" class="container text-center my-5">
+  <h2 class="my-4">Quienes Somos</h2>
+  
+  
+        <div class="row">
+          <div class="col-12 col-md-4">
+              <div class="card1">
+                <div class="card-header">
+                <i class="fa-solid fa-camera fa-2x my-2"></i>
               </div>
-              </div>   
-                
-        <div class="card col-md-4 col-lg-4 card1">
-          <div class="card-header c-head rounded-0">
-              <i class="fa-solid fa-plane icono"></i>
+                  <div class="card-body">
+                      <div class="card-text mb-3 style="background-color="black"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla deserunt dicta nam eaque delectus possimus repellendus officia error! Explicabo libero natus placeat architecto corporis ratione minus culpa? Temporibus, consequuntur id?.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla deserunt dicta nam eaque delectus possimus repellendus officia error! Explicabo libero natus placeat architecto corporis ratione minus culpa? Temporibus, consequuntur id?</div>
+                  </div>
               </div>
-              <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam expedita incidunt repellat, vero blanditiis ipsam similique laboriosam aut maiores sunt ab sit in deleniti itaque possimus officiis natus harum consectetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam expedita incidunt repellat, vero blanditiis ipsam similique laboriosam aut maiores sunt ab sit in deleniti itaque possimus officiis natus harum consectetur.
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card1">
+                <div class="card-body">
+                    <div class="card-text mb-3"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla deserunt dicta nam eaque delectus possimus repellendus officia error! Explicabo libero natus placeat architecto corporis ratione minus culpa? Temporibus, consequuntur id?.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla deserunt dicta nam eaque delectus possimus repellendus officia error! Explicabo libero natus placeat architecto corporis ratione minus culpa? Temporibus, consequuntur id?</div>
                 </div>
-               </div>   
+                    <div class="card-footer">
+                      <i class="fa-solid fa-mountain fa-2x my-2"></i>
+                  </div>
+                </div>
+            </div>
+     
 
+        <div class="col-12 col-md-4">
+          <div class="card1">
+            <div class="card-header">
+            <i class="fa-solid fa-bullhorn fa-2x my-2"></i>
+            </div>
+              <div class="card-body">
+                  <div class="card-text mb-3"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla deserunt dicta nam eaque delectus possimus repellendus officia error! Explicabo libero natus placeat architecto corporis ratione minus culpa? Temporibus, consequuntur id?.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla deserunt dicta nam eaque delectus possimus repellendus officia error! Explicabo libero natus placeat architecto corporis ratione minus culpa? Temporibus, consequuntur id?</div>
+              </div>
+          </div>
+      </div>
+      
 </section>
 
 <!--Lugares destacados-->
@@ -119,15 +139,15 @@
   <section id="Destacados" class="cards d-md-block m-4 text center">
 
   <div class="container"> 
-       <br>
-       <h2 class="text-center">DESTACADOS</h2>
-
-       <br>
+      <br>
+      <h2 class="text-center">DESTACADOS</h2>
+      <hr>
+      <br>
       <div class="row">
         <div class="col-12 col-md-3  card2">
           <div class="card bg-black">
             <img class="image-top imagencard" src="assets/img/card1.jpg" alt="Card image cap">
-              <div class="card-body" style="background-color: #084d6e">
+              <div class="card-body" style="background-color:  #4a9b95">
               <p class="card-text1">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               </p>
@@ -138,7 +158,7 @@
                 <div class="col-12 col-md-3  card2">
                   <div class="card bg-black">
                   <img class="image-top imagencard" src="assets/img/card2.jpg" alt="Card image cap">
-                      <div class="card-body"style="background-color: #084d6e">
+                  <div class="card-body" style="background-color: #4a9b95">
                       <p class="card-text2">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -147,7 +167,7 @@
                 <div class="col-12 col-md-3  card2">
                   <div class="card bg-black">
                   <img class="image-top imagencard" src="assets/img/card3.jpg" alt="Card image cap">
-                      <div class="card-body"style="background-color: #084d6e">
+                  <div class="card-body" style="background-color:  #4a9b95">
                       <p class="card-text3">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                         </div>
@@ -156,7 +176,7 @@
                   <div class="col-12 col-md-3  card2">
                     <div class="card bg-black">
                     <img class="image-top imagencard" src="assets/img/card4.jpg" alt="Card image cap">
-                        <div class="card-body"style="background-color: #084d6e">
+                    <div class="card-body" style="background-color:  #4a9b95">
                         <p class="card-text3">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                           </div>
@@ -169,28 +189,32 @@
 <!--SECCION CONTACTO-->
 
 <form>
-  <form>
-    <section id="Contacto" class="container-fluid my-5 ">
-      <section class="p-5 m-0 bg-ligth text-left text-light"></section>
-      <h2 class="text-center">CONTACTO</h2>
+  <section id="Contacto" class="container my-5 ">
+    <h2 class="text-center my-4">CONTACTO</h2>
     <hr>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Nombre</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Asunto</label>
-      <input type="Asunto" class="form-control" id="AsuntoCorreo" placeholder="">
-    </div>
- 
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-<br>
-    </div>
-    <button type="submit" class="btn btn-primary">Enviar</button>
+        <div class="form-group mb-4">
+            <label class="mb-2">Nombre</label>
+            <input class="form-control" placeholder="">
+        </div>
+
+        <div class="form-group mb-4">
+            <label class="mb-2">Asunto</label>
+            <input class="form-control" placeholder="">
+        </div>
+
+        <div class="form-group mb-4">
+            <label class="mb-2">Mensaje</label>
+            <textarea class="form-control"></textarea>
+        </div>
+
+        <div class="my-3 text-left">
+            <button class="btn btn-info text-light">Enviar</button>
+        </div>
     </form>
+</section>
+
+
+</form>
 
 <!--footer-->
 <section> 
@@ -204,28 +228,18 @@
       </div>
 
   
-      <!-- Right -->
+      <!-- Font Awesome redes sociales-->
       <div>
         <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
+        <i class="fa-brands fa-square-github"></i>
         </a>
         <a href="" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
+        <i class="fa-brands fa-square-twitter"></i>
         </a>
         <a href="" class="me-4 text-reset">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-github"></i>
+        <i class="fa-brands fa-square-facebook"></i>
         </a>
       </div>
-      <!-- Right -->
     </section>
   </section>
     <!-- Section: Social media -->

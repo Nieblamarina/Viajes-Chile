@@ -1,10 +1,17 @@
+.BgColour {
+  color:#67b7b1;
+  transition:all;
+  background-color: black;
+}
 
 body {
     background-color: black;
     color:antiquewhite
 }
 
-
+body {
+  font-family: 'Amaranth';
+}
 
 .navbar {
   background:transparent;
@@ -15,8 +22,20 @@ body {
  
 }
 
+.nav-link {
+  font-family: 'Ubuntu';
+  font-weight:'regular'; 
+ 
+}
+
+  .navbar-brand{
+      font-family: 'Ubuntu';
+      font-weight: 'regular';
+  }   
+
+
+
 img { 
-    
   width: 100%;
 }
 
@@ -30,16 +49,14 @@ img {
   padding-top: 2 rem;
   scroll-padding-bottom: 2rem;
 }
-.card1 {
-  background-color: black;
-}
+
 
 .card2 {
   color: bisque;
   padding: 2px;
   margin-left:0.5 rem;
   margin-right: 0.5 rem;
-  width:18 rem;
+  width:16 rem;
   border: radius 2px;
   margin-bottom: 1 rem;
   }
@@ -48,22 +65,31 @@ img {
 font-size:0.75 rem;
 }
 
-#QuienesSomos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
 
 #Destacados{
     background-color: black;
-    display: flex;
+
 }
 
+.card-header {
+ background-color: #4a9b95;
+}
+
+.card-footer {
+  background-color: #4a9b95;
+
+}
+  
+.card-body {
+  background-color: black;
+}
 #footer {
-  background-color:turquoise;
-
- 
+  background-color:#4a9b95;
+  border:black;
+  
 }
 
+.text header {
+  background-color: aqua;
+}
 
