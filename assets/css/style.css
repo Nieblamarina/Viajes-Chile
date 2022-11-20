@@ -1,7 +1,7 @@
 .BgColour {
-  color:#67b7b1;
+  color:#FFFFFF;
   transition:all;
-  background-color: black;
+  background-color:yellow;
 }
 
 body {
@@ -28,13 +28,14 @@ body {
  
 }
 
-  .navbar-brand{
-      font-family: 'Ubuntu';
-      font-weight: 'regular';
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: 'regular';
   }   
 
 
 
+ 
 img { 
   width: 100%;
 }
@@ -93,3 +94,15 @@ font-size:0.75 rem;
   background-color: aqua;
 }
 
+.tooltip-custom .tooltip-inner  {
+  background-color: #4a8e88 !important;
+  border-top-color: #4a9b95 !important; 
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #QuienesSomos{
+  display: none;
+  }
+  }
